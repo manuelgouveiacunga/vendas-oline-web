@@ -16,7 +16,12 @@ export const BackgroundImage = styled.img`
   z-index: -1;
   filter: blur(10px);
 `;
-export const LogoImage = styled.img``;
+export const LogoImage = styled.img`
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+`;
 
 export const ContainerLogin = styled.div`
   display: flex;
@@ -34,4 +39,5 @@ export const LimitedContainer = styled.div`
   max-width: 498px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 `;
