@@ -1,7 +1,7 @@
 import { Typography as AntTypography } from 'antd';
 import styled from 'styled-components';
 
-const { Text, Link } = AntTypography;
+const { Text } = AntTypography;
 
 export const BoxInput = styled.div`
   widht: 100%;
