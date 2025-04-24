@@ -1,12 +1,12 @@
+import { Typography as AntTypography } from 'antd';
 import styled from 'styled-components';
 
-export const BoxInput = styled.div``;
+const { Text, Link } = AntTypography;
 
-export const TitleInput = styled.h2`
-  font-family: 'Propims';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
+export const BoxInput = styled.div`
+  widht: 100%;
+`;
+
+export const TitleInput = styled(Text)`
   margin: 8px;
 `;
